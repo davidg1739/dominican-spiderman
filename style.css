@@ -1,0 +1,10 @@
+@font-face {
+            font-family: 'spider';
+            /*a name to be used later*/
+            src: url('fonts/HOMOARAK.TTF');
+            /*URL to font*/
+        }
+        
+.font {
+    font-family:spider;
+}
