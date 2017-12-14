@@ -18,7 +18,11 @@
 }
 #title {
     margin-bottom:20px;
+    
 }
 .pic1 {
-    width:50px;
+    width:200px;
+}
+body {
+background-image:url("images/skyline.jpg");
 }
