@@ -5,6 +5,14 @@
             /*URL to font*/
         }
         
-.font {
+.red {
     font-family:spider;
+    color:red;
+}
+.blue {
+    font-family:spider;
+    color:blue;
+}
+#center {
+    text-align:center;
 }
