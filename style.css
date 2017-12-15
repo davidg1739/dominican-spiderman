@@ -1,32 +1,48 @@
 @font-face {
-            font-family: 'spider';
-            /*a name to be used later*/
-            src: url('fonts/HOMOARAK.TTF');
-            /*URL to font*/
-        }
-        
+    font-family: 'spider';
+    /*a name to be used later*/
+    src: url('fonts/HOMOARAK.TTF');
+    /*URL to font*/
+}
+
 .red {
-    font-family:spider;
-    color:red;
+    font-family: spider;
+    color: red;
 }
 
 .blue {
-    font-family:spider;
-    color:blue;
+    font-family: spider;
+    color: blue;
 }
 
 #center {
-    text-align:center;
+    text-align: center;
 }
 
 #title {
-    margin-bottom:20px;
-    
+    margin-bottom: 20px;
+
 }
 
 .pic1 {
-    width:200px;
+    width: 200px;
 }
+
 body {
-background-image:url("images/skyline.jpg");
+    background-image: url("images/skyline.jpg");
+}
+
+p {
+    color: white;
+    text-align: center;
+}
+
+.topimage {
+    display: inline-block;
+    margin: auto;
+}
+
+.startingtext {
+    display: inline-block;
+    margin: auto;
 }
