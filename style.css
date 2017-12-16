@@ -30,19 +30,34 @@
 
 body {
     background-image: url("images/skyline.jpg");
+    background-size:100%;
 }
 
 p {
-    color: white;
+    color: black;
     text-align: center;
+    font-size:20pt;
 }
 
-.topimage {
+.topimage1 {
     display: inline-block;
     margin: auto;
+    float: left;
+}
+
+.topimage2 {
+    display: inline-block;
+    margin: auto;
+    position:absolute;
+    float:right;
 }
 
 .startingtext {
     display: inline-block;
     margin: auto;
+    font-family: spider;
+    text-align:center;
+    display:inline-block;
+    width:400px;
+
 }
