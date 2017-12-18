@@ -25,7 +25,8 @@
 }
 
 .pic1 {
-    width: 200px;
+    width: 300px;
+    
 }
 
 body {
@@ -43,7 +44,8 @@ p {
     display: inline-block;
     margin: auto;
     float: left;
-    margin-left:500px;
+    margin-left:200px;
+    margin-right: 50px;
 }
 
 .topimage2 {
@@ -60,5 +62,7 @@ p {
     text-align:center;
     display:inline-block;
     width:400px;
+    margin-left:100px;
+    margin-right: 100px;
     
 }
