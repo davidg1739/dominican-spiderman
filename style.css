@@ -43,6 +43,7 @@ p {
     display: inline-block;
     margin: auto;
     float: left;
+    margin-left:500px;
 }
 
 .topimage2 {
@@ -59,5 +60,5 @@ p {
     text-align:center;
     display:inline-block;
     width:400px;
-    margin:auto;
+    
 }
