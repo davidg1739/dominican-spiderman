@@ -29,7 +29,7 @@
 }
 
 body {
-    background-image: url("images/skyline.jpg");
+    background-image: url("images/spiderbg.jpg");
     background-size:100%;
 }
 
@@ -59,4 +59,5 @@ p {
     text-align:center;
     display:inline-block;
     width:400px;
+    margin:auto;
 }
