@@ -100,3 +100,21 @@ p {
 .bold {
     font-weight: bold;
 }
+#submit {
+    float:right;
+    position:relative;
+    top:175px;
+    color:lightgrey;
+}
+.submit{
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #3498db;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin: 20px;
+    height: 50px;
+    display:inline-block;
+}
