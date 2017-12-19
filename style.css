@@ -6,12 +6,12 @@
 }
 
 .red {
-    font-family: spider;
+    font-family:spider;
     color: red;
 }
 
 .blue {
-    font-family: spider;
+    font-family:spider;
     color: blue;
 }
 
@@ -46,6 +46,8 @@ p {
     float: left;
     margin-left:200px;
     margin-right: 50px;
+    padding:10px 10px 8px 10px;
+    background-color: white;
 }
 
 .topimage2 {
@@ -53,12 +55,14 @@ p {
     margin: auto;
     position:absolute;
     float:right;
+    padding:10px 10px 8px 10px;
+    background-color: white;
 }
 
 .startingtext {
     display: inline-block;
     margin: auto;
-    font-family: spider;
+    font-family:spider;
     text-align:center;
     display:inline-block;
     width:400px;
@@ -66,12 +70,33 @@ p {
     margin-right: 100px;
     color:red;
     
+    
 }
 
 .catch {
-    font-size:50pt;
+    font-size:25pt;
 }
 
 .bg {
     color:grey;
+    margin-top:-20px;
+}
+
+#rating {
+    display:inline-block;
+    float:left;
+    border-style: groove;
+    background-color: black;
+     position:absolute;
+     top:700px;
+     
+    
+}
+.rating {
+    color:green;
+    font-size: 15pt;
+    
+}
+.bold {
+    font-weight: bold;
 }
