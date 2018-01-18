@@ -32,6 +32,7 @@
 body {
     background-image: url("images/spiderbg.jpg");
     background-size:100%;
+    background-repeat: repeat;
 }
 
 p {
@@ -82,8 +83,11 @@ p {
     color:grey;
     margin-top:-20px;
     position:relative;
-    left:100px;
+    top:200px;
+    left:150px;
 }
+
+ 
 
 #rating {
     display:inline-block;
@@ -93,13 +97,18 @@ p {
      position:absolute;
      top:700px;
      left:50px;
-     
-    
+     transition-duration: 3s;
 }
 .rating {
     color:green;
     font-size: 15pt;
     
+}
+
+#rating:hover {
+    -ms-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
 }
 .bold {
     font-weight: bold;
@@ -128,7 +137,7 @@ p {
 }
 #video {
     position:relative;
-    right: 500px;
+    right: 600px;
     display: inline-block;
     float:right;
 }
