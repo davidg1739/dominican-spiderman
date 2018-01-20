@@ -80,14 +80,12 @@ p {
     width:400px;
     margin-left:100px;
     margin-right: 100px;
-    
-    
-    
 }
 
 /*The chunk of code below sets the color and animation that go along iwth the starting text.*/
 #strttext {
     color:red;
+    text-shadow:1px 1px;
     animation:colorChange 5s linear;
 }
 
@@ -100,12 +98,21 @@ p {
     100% {color:red;}
 }
 
+/*The chunk of code below changes the background color of the catchphrase div on certain percentages after the page is loaded*/
+@keyframes backgroundChange {
+    0%   {background-color:white;}
+    25%  {background-color:black;}
+    50%  {background-color:lightgrey;}
+    75%  {background-color:orange;}
+    100% {background-color:blue;}
+}
+
 /*The chunk of code below sets the font size of the catchphrase.*/
 .catch {
     font-size:25pt;
 }
 
-/*The chunk of code below sets the colro, positiopn, and look of the catchphrase's div*/
+/*The chunk of code below sets the color, position, animation, and look of the catchphrase's div*/
 .bg {
     display:inline-block;
     color:grey;
@@ -113,6 +120,7 @@ p {
     position:relative;
     top:200px;
     left:150px;
+    animation:backgroundChange 5s linear;
 }
 
 /*The chunk of code below sets the position, size, look, and transition duration of the rating's div.*/
@@ -151,6 +159,7 @@ p {
     top:700px;
     left:1000px;
     color:lightgrey;
+    background: linear-gradient(lightgrey, grey);
 }
 
 /*The chunk of code below sets the font, look, and size of the submit text*/
@@ -175,7 +184,12 @@ p {
     float:right;
 }
 
-/*The chunk of code below a box shadow for both of the top pics of Dominican Spiderman*/
+/*The chunk of code below a box shadow and transition duration for both of the top pics of Dominican Spiderman*/
 #imgtop {
     box-shadow: 20px 20px;
+    transition-duration:3s;
+}
+#imgtop:hover {
+    -webkit-transform: scale(1,2); 
+    transform: scale(1,2);
 }
