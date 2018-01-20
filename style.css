@@ -1,3 +1,4 @@
+/*The chunk of code below reads the spiderman font and creates a font family for it.*/
 @font-face {
     font-family: 'spider';
     /*a name to be used later*/
@@ -5,42 +6,50 @@
     /*URL to font*/
 }
 
+/*The chunk of code below creates red text*/
 .red {
     font-family:spider;
     color: red;
 }
 
+/*The chunk of code below creates blue text*/
 .blue {
     font-family:spider;
     color: blue;
 }
 
+/*The chunk of code below centers text*/
 #center {
     text-align: center;
 }
 
+/*The chunk of code below sets the bottom of the title's margin to 20px.*/
 #title {
     margin-bottom: 20px;
 
 }
 
+/*The chunk of code below sets the width of the top left pic of Dominican Spiderman to 200px.*/
 .pic1 {
     width: 300px;
     
 }
 
+/*The chunk of code below creates the background of the body*/
 body {
     background-image: url("images/spiderbg.jpg");
     background-size:100%;
     background-repeat: repeat;
 }
 
+/*The chunk of code below sets the color, allignment, and font size of paragraph elements.*/
 p {
     color: black;
     text-align: center;
     font-size:20pt;
 }
 
+/*The chunk of code below sets the position and size of the top left pic of Dominican Spiderman*/
 .topimage1 {
     display: inline-block;
     margin: auto;
@@ -51,6 +60,7 @@ p {
     background-color: white;
 }
 
+/*The chunk of code below sets the position and size of the top right pic of Dominican Spiderman*/
 .topimage2 {
     display: inline-block;
     margin: auto;
@@ -60,6 +70,7 @@ p {
     background-color: white;
 }
 
+/*The chunk of code below sets the look, size, and width of the starting/intro text.*/
 .startingtext {
     display: inline-block;
     margin: auto;
@@ -74,11 +85,13 @@ p {
     
 }
 
+/*The chunk of code below sets the color and animation that go along iwth the starting text.*/
 #strttext {
     color:red;
     animation:colorChange 5s linear;
 }
 
+/*The chunk of code below changes the color of the starting text on certain percentages after the page is loaded*/
 @keyframes colorChange {
     0%   {color:orange;}
     25%  {color:yellow;}
@@ -87,10 +100,12 @@ p {
     100% {color:red;}
 }
 
+/*The chunk of code below sets the font size of the catchphrase.*/
 .catch {
     font-size:25pt;
 }
 
+/*The chunk of code below sets the colro, positiopn, and look of the catchphrase's div*/
 .bg {
     display:inline-block;
     color:grey;
@@ -100,39 +115,45 @@ p {
     left:150px;
 }
 
- 
-
+/*The chunk of code below sets the position, size, look, and transition duration of the rating's div.*/
 #rating {
     display:inline-block;
-    /*float:left;*/
     border-style: groove;
     background: linear-gradient(grey, black);
-     position:absolute;
-     top:700px;
-     left:50px;
-     transition-duration: 3s;
+    position:absolute;
+    top:700px;
+    left:50px;
+    transition-duration: 3s;
 }
 
+
+/*The chunk of code below sets the color and fotn size of the ratings text.*/
 .rating {
     color:green;
     font-size: 15pt;
-    
 }
 
+/*The chunk of code below fully rotates the rating div when the user hovers over it.*/
 #rating:hover {
     -ms-transform: rotate(360deg);
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
 }
+
+/*The chunk of code below sets the text of anything that has this class to bold.*/
 .bold {
     font-weight: bold;
 }
+
+/*The chunk of code below sets the position and color of the email submit div.*/
 #submit {
     position:absolute;
     top:700px;
     left:1000px;
     color:lightgrey;
 }
+
+/*The chunk of code below sets the font, look, and size of the submit text*/
 .submit{
     border-radius: 28px;
     font-family: Arial;
@@ -144,10 +165,9 @@ p {
     margin: 20px;
     height: 50px;
     display:inline-block;
-    
-    
 }
 
+/*The chunk of code below sets the position and look of the trailer of Dominican Spiderman*/
 #video {
     position:relative;
     right: 600px;
@@ -155,6 +175,7 @@ p {
     float:right;
 }
 
+/*The chunk of code below a box shadow for both of the top pics of Dominican Spiderman*/
 #imgtop {
     box-shadow: 20px 20px;
 }
